@@ -1,8 +1,11 @@
 module.exports = {
     parserOptions: {
-        // This is supported since Node.js 14
-        ecmaVersion: 2019,
         sourceType: 'module'
+    },
+
+    env: {
+        // This is supported since Node.js 14
+        es2020: true
     },
 
     rules: {
