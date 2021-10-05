@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "ESLint rules according to floriangosse's personal preference",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "lint": "eslint .",
     "test": "npm run lint && ! eslint --no-ignore tests/fail.fixture.js > /dev/null && eslint --no-ignore tests/pass.fixture.js && echo 'pass'"
