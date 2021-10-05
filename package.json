@@ -1,0 +1,38 @@
+{
+  "name": "eslint-config-floriangosse",
+  "version": "0.0.0",
+  "description": "ESLint rules according to floriangosse's personal preference",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && ! eslint --no-ignore tests/fail.fixture.js > /dev/null && eslint --no-ignore tests/pass.fixture.js && echo 'pass'"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "floriangosse",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Florian Goße <florian@essog.de> (https://floriangosse.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/floriangosse/eslint-config-floriangosse"
+  },
+  "bugs": {
+    "url": "https://github.com/floriangosse/eslint-config-floriangosse/issues"
+  },
+  "homepage": "https://github.com/floriangosse/eslint-config-floriangosse#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6"
+  }
+}
