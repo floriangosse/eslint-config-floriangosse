@@ -29,10 +29,10 @@
   },
   "homepage": "https://github.com/floriangosse/eslint-config-floriangosse#readme",
   "devDependencies": {
-    "eslint": "^7.32.0"
+    "eslint": "^8.12.0"
   },
   "peerDependencies": {
-    "eslint": "^7.32.0"
+    "eslint": "^8.12.0"
   },
   "engines": {
     "node": ">=14.0.0",
