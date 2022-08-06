@@ -1,4 +1,4 @@
 # Include hidden files
 !.*
 
-tests/*.fixture.js
+tests/**/*.fixture.js

@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "test": "npm run lint && ! eslint --no-ignore tests/fail.fixture.js > /dev/null && eslint --no-ignore tests/pass.fixture.js && echo 'pass'"
+    "test": "npm run lint && ./scripts/test.sh"
   },
   "keywords": [
     "eslint",
