@@ -1,1 +1,4 @@
+# Include hidden files
+!.*
+
 tests/*.fixture.js
