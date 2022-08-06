@@ -4,7 +4,8 @@
   "description": "ESLint rules according to floriangosse's personal preference",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "tab.js"
   ],
   "scripts": {
     "lint": "eslint .",
